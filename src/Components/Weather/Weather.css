@@ -1,27 +1,11 @@
-.bg{
-    position: absolute;
-    background-image: url(../Assets/sunshine.jpg);
-    width: 100%;
-    min-height: 100%;
-}
-.bg1{
+
+/* .bg1{
     position: absolute;
     background-image: url(../Assets/wind.png);
     width: 100%;
     min-height: 100%;
-}
-.bg2{
-    position: absolute;
-    background-image: url(../Assets/sea.jpg);
-    width: 100%;
-    min-height: 100%;
-}
-.bg3{
-    position: absolute;
-    background-image: url(../Assets/jungle.jpg);
-    width: 100%;
-    min-height: 100%;
-}
+} */
+
 .container{
 margin: auto;
 margin-top: 75px;
@@ -98,4 +82,27 @@ border-radius: 12px;
 }
 .icon{
     margin-top: 10px;
+}
+@media (max-width:776px) {
+    .container{ 
+        margin-top: 25px;   
+        }
+    .topbar{
+        padding-top: 30px;
+        }
+        .topbar input{
+            width: 250px;
+        }
+    .element{
+        margin: 10px 30px;
+    
+    }
+    .data{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .text{
+        font-size: 12px;
+        font-weight: 400;
+    }
 }
